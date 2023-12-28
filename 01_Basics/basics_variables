@@ -1,0 +1,21 @@
+// const desknumber = 1234567;
+// var gmail = "huinkr@gmail.com";
+/*
+prefer not to use var in js due to block scope and functional scope ;
+*/
+// let office_id ="8649";
+// console.log(account);
+// console.log(gmail);
+// let salary = 55000;
+// console.log(value);
+//  console.table([account,gmail,office_id,value]);
+//  console.table([desknumber,gmail,office_id,salary]);
+
+
+
+// let balance;
+// console.log(balance);
+
+//  ^ ^ ^ ^ ^ ^ 
+// show the undefined value as output 
+
