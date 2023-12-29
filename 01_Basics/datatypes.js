@@ -24,3 +24,5 @@
 // output is object some say its a language mistake but null actually an object type;
 
 // console.log(typeof(undefined));
+
+ 
