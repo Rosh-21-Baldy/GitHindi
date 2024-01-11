@@ -1,0 +1,57 @@
+// function is a block of piece of code which make code easier while calling and in program 
+
+// simple function format be like 
+//  function fun_1() {
+
+
+//  }
+// calling of function 
+// fun_1()
+
+
+// function hello(){
+//     console.log('no');
+//     console.log('no');
+//     console.log('no');
+//     console.log('no');
+//     console.log('no');
+
+// }
+
+// hello();
+
+
+// function add(a,b ){
+
+//     console.log(a+b);
+// }
+
+// add(4,5)
+
+/////
+//  nothing will print 
+// function user(name){
+
+//     return `${name} is logged in `
+// }
+// user("chor");
+
+// function buy(value1,value2,...value){
+// return value;
+// }
+// console.log(buy(34,4,565,2341,14,3,5));
+
+// how to pass object in function 
+
+// const user ={
+//     name:"ron",
+//     age:12
+// }
+//  function loggedIn(user){
+
+// // console.log(user.name)
+// console.log(`the user name is ${user.name} and her age is ${user.age}`);
+//  }
+// loggedIn(user);
+
+/
