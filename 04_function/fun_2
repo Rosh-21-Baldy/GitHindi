@@ -1,0 +1,128 @@
+// how to pass an object in function 
+
+// const user ={
+//     name:"ron",
+//     age:12
+// }
+//  function loggedIn(user){
+
+// // console.log(user.name)
+// // console.log(user.age)
+// console.log(`the user name is ${user.name} and her age is ${user.age}`);
+//  }
+// loggedIn(user);
+
+// try with array 
+
+//  const arr =[1,2,45,6];
+
+//  function toarray(arr){
+
+// console.log(arr)
+
+//  }
+//  toarray(arr)
+ 
+
+// function one(){
+//     const name ="ram";
+  
+//     function two(){
+//         const age = 21;
+//         console.log(name);
+
+//     }
+//     console.log(age);
+//  two();
+  
+// }
+//  one();
+
+// +++++++++++++++++++++++++++ 
+// ways to declare function 
+
+// function one (num){
+    
+// }
+// const two = function (){
+
+// }
+
+// const add= function(num1,num2){
+//  const sum =num1+num2;
+// console.log("the value of addition is:",sum);
+// }
+
+// add(4,5)
+// ++++++++++++++++++++++++++++++++++++++++++++++++ 
+//  const user={
+//     name:"sham",
+//     hasdata:true,
+
+//    message:function(){
+// console.log(`${this} yes you enter in dataBase `);
+//    }
+//  }
+
+//  to declare arrow function 
+// const data = () => {
+//  name ="sham"
+//  console.log(this);
+
+// }
+// data();
+
+// const add = (num1,num2) =>{
+// return  num1+num2;
+
+// }
+// console.log(add(3,4));
+
+// implicit return 
+// const sub = (n1,n2)=>(n1-n2)
+
+// console.log(sub(3,2));
+//  in this there is no curly braces and return type 
+
+// explicit return 
+
+// const sub = (n1,n2)=>{
+//     return n1-n2;
+// }
+// console.log(sub(45,8));
+//  +++++++++++++++++++++++++++ 
+// to create map 
+//  map are used to maintaine the order in which we print and not allowed  to repeats.
+
+// const map = new Map()
+// map.set("name","om")
+// map.set("class","assume")
+// map.set("make","create")
+// map.set("name","om")
+// console.log(map)
+
+// +++++++++++++++++++++++++++ 
+// const my={
+//     name:"sham",
+//     age:12
+// }
+// for (const key in my) {
+//    console.log((key),my[key]);
+// console.log(`${key} ${my[key]}`)
+// }
+
+//  const map = new Map()
+//  map.set("in","out")
+//  map.set("it","should")
+//  map.set("i","am")
+
+
+//  map.forEach((value,key) => {
+//     console.log(key,value);
+//  });
+
+// const lan =["cpp","python","java"]
+
+// for (const key in lan) {
+//    console.log(`(key),lan[key]`)
+//     }
